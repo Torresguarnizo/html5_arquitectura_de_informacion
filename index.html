@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I LOVE BOXING</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.pixabay.com/photo/2013/07/13/12/35/boxing-gloves-159920_1280.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <meta name="author" content="Jose Carlos Torres Guarnizo" />
+    <meta
+      name="description"
+      content="I LOVE BOXING proporciona informacion sobre como se origino el boxeo. Tambien articulos relacionados y las peliculas mas recoemdnadas sobre el boxeo"
+    />
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url('https://img.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg')
+          no-repeat center center fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        backdrop-filter: blur(2px);
+      }
+      header {
+        background-color: black;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li {
+        display: inline;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      #search-container {
+        display: flex;
+        align-items: center;
+      }
+      #search-container input[type='text'] {
+        padding: 5px;
+        font-size: 16px;
+      }
+      #titulo {
+        background-color: rgba(130, 116, 116, 0.775);
+        height: 50px;
+      }
+      #titulo h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+      .boxeo {
+        color: rgb(252, 254, 255);
+      }
+      #formulario {
+        width: 400px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 10px;
+      }
+      #formulario h4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        color: rgb(222, 30, 16);
+      }
+      .controls {
+        width: 110%;
+        background-color: rgba(137, 135, 134, 0.64);
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 18px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+      }
+      .link p {
+        height: 20px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'calibri';
+        color: white;
+        line-height: 40px;
+      }
+      .link p a {
+        color: white;
+        text-decoration: none;
+      }
+      .link p a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      #botons {
+        width: 120%;
+        background-color: #1f53c5;
+        border: none;
+        padding: 10px;
+        color: white;
+        margin-top: 16px;
+        margin-bottom: 0px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul style="list-style: none">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div id="search-container">
+        <input type="text" placeholder="Buscar..." />
+      </div>
+    </header>
+    <div id="titulo">
+      <h1><cite>LA HISTORIA DEL BOXEO</cite></h1>
+    </div>
+    <figure>
+      <img
+        src="https://cdn.pixabay.com/photo/2020/01/24/17/34/boxing-glove-4790853_640.jpg"
+        alt="guantes de boxeo"
+        title="guantes de boxeo"
+      />
+      <figcaption>"Estos guantes pertenecieron al primer boxeador"</figcaption>
+    </figure>
+    <main>
+      <article id="primer_parrafo">
+        <h2>Origen del boxeo</h2>
+        <div class="boxeo">
+          <p>
+            Los primeros datos de una pelea de boxeo en los tiempos modernos, se
+            ubica en <b>Inglaterra </b>en 1681: el
+            <cite>duque de Albermarle</cite> organizó un combate entre su
+            mayordomo y su carnicero.
+          </p>
+        </div>
+      </article>
+      <article id="segundo_parrafo">
+        <h2>Quien invento el ring de boxeo</h2>
+        <div class="boxeo">
+          <p>
+            <b>BROUGHTON</b> fue quien inventó los cuadriláteros con elevación
+            conocidos como <cite>"Ring"</cite> y los guantes de boxeo que se
+            usaban en las prácticas y en las demostraciones, aunque no en las
+            competencias.
+          </p>
+        </div>
+      </article>
+      <article id="tercer_parrafo">
+        <h2>¿Quien es el dios del boxeo?</h2>
+        <div class="boxeo">
+          <p>
+            Según una leyenda, <b>Apolo,</b> además de ser el Dios del sol, las
+            artes y la belleza, también dio inicio al boxeo tal y como lo
+            conocemos, ya que creó un deporte. para dignificar el espíritu
+            combativo del ser humano. Lo llamó <cite>Pig magia</cite>, el arte
+            de luchar con los puños, y se lo enseñó a los mortales como un
+            regalo divino
+          </p>
+        </div>
+      </article>
+      <article id="Adicional">
+        <h2><cite>Adicional</cite></h2>
+        <div class="boxeo">
+          <p>
+            Si eres un verdura fan del boxeo resgistrate totalmente gratis para
+            tener acceso durante un mes a nuestra plataforma donde podras ver
+            todas la peliculas mas taquilleras de acerca del boxeo
+          </p>
+        </div>
+      </article>
+    </main>
+    <form id="formulario" action="/" method="post">
+      <h4>Registrate</h4>
+      <input
+        type="text"
+        id="nombre"
+        class="controls"
+        name="nombre"
+        placeholder="nombre"
+      />
+      <input
+        type="text"
+        id="apellidos"
+        class="controls"
+        name="apellidos"
+        placeholder="apellidos"
+      />
+      <input
+        type="text"
+        id="correo_electronico"
+        class="controls"
+        name="correco electronico"
+        placeholder="correo electronico"
+      />
+      <input
+        type="password"
+        id="nueva_contraseña"
+        class="controls"
+        name="crea nueva contraseña"
+        placeholder="crea nueva contraseña"
+      />
+      <input
+        type="password"
+        id="repita_contraseña"
+        class="controls"
+        name="repita contraseña"
+        placeholder="repita contraseña"
+      />
+      <div class="link">
+        <p>
+          Estoy de acuerdo con
+          <a href="http://127.0.0.1:5500/index.html">terminos y condiciones</a>
+        </p>
+      </div>
+      <input id="botons" type="submit" value="Registrarse" />
+    </form>
+    <footer class="footer" lang="es">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-links">
+            <h4>Compañia</h4>
+            <ul>
+              <li><a href="#">sobre Nosotros</a></li>
+              <li><a href="#">Afiliate</a></li>
+              <li><a href="#">Politica de privacidad</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Ayuda</h4>
+            <ul>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Compras</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Siguenos</h4>
+            <figure id="social-link">
+              <a href="/" class="fab fa-facebook"></a>
+              <a href="/" class="fab fa-twitter"></a>
+              <a href="/" class="fab fa-instagram"></a>
+              <a href="/" class="fab fa-linkedin"></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
